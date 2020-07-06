@@ -1,0 +1,314 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10872,        306]
+NotebookOptionsPosition[      8636,        265]
+NotebookOutlinePosition[      9009,        281]
+CellTagsIndexPosition[      8966,        278]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Parte 1 (Baterias de 1 a 5)", "Subsection",
+ CellChangeTimes->{{3.802905442117282*^9, 3.8029054435474763`*^9}, {
+  3.802905533101516*^9, 
+  3.8029055392121677`*^9}},ExpressionUUID->"1f2ec30c-5cc2-4f85-836b-\
+38a9fd53d780"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat1", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt1\\\\\
+BAT1.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029055478870063`*^9, 3.802905585187276*^9}, {
+  3.8029070889222136`*^9, 3.8029070925205903`*^9}},
+ CellLabel->
+  "(Debug) In[66]:=",ExpressionUUID->"c0d5143f-c4e3-4a8a-80ff-ae53420b6c04"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat2", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt1\\\\\
+BAT2.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029056247694573`*^9, 3.802905629042987*^9}},
+ CellLabel->
+  "(Debug) In[44]:=",ExpressionUUID->"1e86f7e4-f687-4c52-bd7c-aa07b4c73aeb"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat3", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt1\\\\\
+BAT3.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029056344824896`*^9, 3.8029056383411245`*^9}},
+ CellLabel->
+  "(Debug) In[45]:=",ExpressionUUID->"b3073a02-924b-4108-a6e4-09365756490c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat4", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt1\\\\\
+BAT4.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029056440378885`*^9, 3.8029056491133676`*^9}},
+ CellLabel->
+  "(Debug) In[46]:=",ExpressionUUID->"5231d24d-7ddd-4239-8ad7-9eebe6e62511"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat5", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt1\\\\\
+BAT5.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029055290583234`*^9, 3.8029055308187375`*^9}, {
+  3.8029056517313523`*^9, 3.802905658512176*^9}},
+ CellLabel->
+  "(Debug) In[47]:=",ExpressionUUID->"7cfe843d-ca2a-4587-92f1-a09647c38532"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"a", "=", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"bat1", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "[", 
+       RowBox[{"[", "1", "]"}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"bat1", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "[", 
+       RowBox[{"[", "2", "]"}], "]"}], ",", 
+      RowBox[{"N", "[", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"i", "-", "1"}], ")"}], "/", "10"}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "1", ",", "6"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.802906967234231*^9, 3.8029070610716934`*^9}, {
+  3.8029072472428026`*^9, 3.8029073272348742`*^9}, {3.802907363127885*^9, 
+  3.8029073816566114`*^9}, {3.802907458634267*^9, 3.802907462219675*^9}},
+ CellLabel->
+  "(Debug) In[72]:=",ExpressionUUID->"2e18c247-35b5-402b-bf05-f0e1e797c180"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0.01471`", ",", "0", ",", "0.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.01471`", ",", "0.1`", ",", "0.1`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.01471`", ",", "0.2`", ",", "0.2`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.01471`", ",", "0.3`", ",", "0.3`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0.4`", ",", "0.4`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0.5`", ",", "0.5`"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.802907003248973*^9, {3.8029070422884693`*^9, 3.802907061359956*^9}, {
+   3.8029073093367386`*^9, 3.802907327569977*^9}, {3.802907367185032*^9, 
+   3.802907382163243*^9}, 3.8029074627652507`*^9},
+ CellLabel->
+  "(Debug) Out[72]=",ExpressionUUID->"a5c35230-20ea-41e0-b4c2-cc76a06be086"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Parte 2 (Baterias de 6 a 10)", "Subsection",
+ CellChangeTimes->{{3.802905510951585*^9, 3.80290551265823*^9}, {
+  3.8029058521642838`*^9, 
+  3.802905873143181*^9}},ExpressionUUID->"c4d18810-f5c1-42e6-aa9e-\
+362e63793f39"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat6", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt2\\\\\
+BAT6.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.802905669329249*^9, 3.8029056940192165`*^9}},
+ CellLabel->
+  "(Debug) In[49]:=",ExpressionUUID->"fe91f428-6495-4ef1-bfa0-4c00debc9370"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat7", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt2\\\\\
+BAT7.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.802905703520845*^9, 3.802905707051369*^9}},
+ CellLabel->
+  "(Debug) In[50]:=",ExpressionUUID->"d59e2c92-ea4d-4acf-b367-c14d320fbac7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat8", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt2\\\\\
+BAT8.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029057124529657`*^9, 3.802905718110793*^9}},
+ CellLabel->
+  "(Debug) In[51]:=",ExpressionUUID->"c143d77b-d3d7-4f19-826c-b1c14c5de04c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat9", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt2\\\\\
+BAT9.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.802905724757018*^9, 3.802905729168254*^9}},
+ CellLabel->
+  "(Debug) In[52]:=",ExpressionUUID->"26763d92-11a4-4010-a577-d2d1edfb72b1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat10", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt2\\\\\
+BAT10.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.802905736202459*^9, 3.8029057464549904`*^9}},
+ CellLabel->
+  "(Debug) In[53]:=",ExpressionUUID->"96941033-1b99-4f50-87d8-28f3ca33346c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Parte 3 (Baterias de 11 a 15)", "Subsection",
+ CellChangeTimes->{{3.802905516513879*^9, 3.802905521958313*^9}, {
+  3.802905862722085*^9, 
+  3.802905880418869*^9}},ExpressionUUID->"7eee17b5-4dd4-4571-a693-\
+d9143692e3d4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat11", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt3\\\\\
+BAT11.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029057573927684`*^9, 3.802905788537492*^9}},
+ CellLabel->
+  "(Debug) In[55]:=",ExpressionUUID->"7ea713fd-4002-4cfa-9c29-a879f65d39b3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat12", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt3\\\\\
+BAT12.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.802905811374417*^9, 3.8029058147503395`*^9}},
+ CellLabel->
+  "(Debug) In[56]:=",ExpressionUUID->"7699818a-a861-4401-80d4-e1c7d5623f88"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat13", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt3\\\\\
+BAT13.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029058202915635`*^9, 3.802905823837037*^9}},
+ CellLabel->
+  "(Debug) In[57]:=",ExpressionUUID->"43e9c521-713f-4904-b4fe-bcf1f711b4e7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat14", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt3\\\\\
+BAT14.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8029058280826845`*^9, 3.8029058318017373`*^9}},
+ CellLabel->
+  "(Debug) In[58]:=",ExpressionUUID->"4188204e-f0ae-4758-b993-59a4367205a4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bat15", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<C:\\\\Users\\\\renan\\\\Desktop\\\\576\\\\bateries\\\\xls\\\\pt3\\\\\
+BAT15.xls\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.802905836208111*^9, 3.8029058399469547`*^9}},
+ CellLabel->
+  "(Debug) In[59]:=",ExpressionUUID->"192c4b70-7b5c-41b5-9752-d04eb83fe670"]
+}, Open  ]]
+},
+WindowSize->{1536, 821},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Magnification:>1.7 Inherited,
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 228, 4, 90, "Subsection",ExpressionUUID->"1f2ec30c-5cc2-4f85-836b-38a9fd53d780"],
+Cell[811, 28, 409, 10, 70, "Input",ExpressionUUID->"c0d5143f-c4e3-4a8a-80ff-ae53420b6c04"],
+Cell[1223, 40, 356, 9, 70, "Input",ExpressionUUID->"1e86f7e4-f687-4c52-bd7c-aa07b4c73aeb"],
+Cell[1582, 51, 358, 9, 70, "Input",ExpressionUUID->"b3073a02-924b-4108-a6e4-09365756490c"],
+Cell[1943, 62, 358, 9, 70, "Input",ExpressionUUID->"5231d24d-7ddd-4239-8ad7-9eebe6e62511"],
+Cell[2304, 73, 409, 10, 70, "Input",ExpressionUUID->"7cfe843d-ca2a-4587-92f1-a09647c38532"],
+Cell[CellGroupData[{
+Cell[2738, 87, 905, 24, 70, "Input",ExpressionUUID->"2e18c247-35b5-402b-bf05-f0e1e797c180"],
+Cell[3646, 113, 836, 20, 133, "Output",ExpressionUUID->"a5c35230-20ea-41e0-b4c2-cc76a06be086"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4531, 139, 226, 4, 90, "Subsection",ExpressionUUID->"c4d18810-f5c1-42e6-aa9e-362e63793f39"],
+Cell[4760, 145, 356, 9, 70, "Input",ExpressionUUID->"fe91f428-6495-4ef1-bfa0-4c00debc9370"],
+Cell[5119, 156, 354, 9, 70, "Input",ExpressionUUID->"d59e2c92-ea4d-4acf-b367-c14d320fbac7"],
+Cell[5476, 167, 356, 9, 70, "Input",ExpressionUUID->"c143d77b-d3d7-4f19-826c-b1c14c5de04c"],
+Cell[5835, 178, 354, 9, 70, "Input",ExpressionUUID->"26763d92-11a4-4010-a577-d2d1edfb72b1"],
+Cell[6192, 189, 358, 9, 70, "Input",ExpressionUUID->"96941033-1b99-4f50-87d8-28f3ca33346c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6587, 203, 226, 4, 90, "Subsection",ExpressionUUID->"7eee17b5-4dd4-4571-a693-d9143692e3d4"],
+Cell[6816, 209, 358, 9, 70, "Input",ExpressionUUID->"7ea713fd-4002-4cfa-9c29-a879f65d39b3"],
+Cell[7177, 220, 358, 9, 70, "Input",ExpressionUUID->"7699818a-a861-4401-80d4-e1c7d5623f88"],
+Cell[7538, 231, 358, 9, 70, "Input",ExpressionUUID->"43e9c521-713f-4904-b4fe-bcf1f711b4e7"],
+Cell[7899, 242, 360, 9, 70, "Input",ExpressionUUID->"4188204e-f0ae-4758-b993-59a4367205a4"],
+Cell[8262, 253, 358, 9, 70, "Input",ExpressionUUID->"192c4b70-7b5c-41b5-9752-d04eb83fe670"]
+}, Open  ]]
+}
+]
+*)
+
