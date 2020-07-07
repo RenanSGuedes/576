@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  6 JUL 2020 23:04
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  7 JUL 2020 18:40
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -560,34 +560,89 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 )
-(./main.aux)
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/xwatermark/xwatermark.sty
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/catoptions/catoptions.sty
+\m@one=\count285
+\z@pt=\dimen173
+Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (AM
+)
+\cpt@csvdepth=\count286
+\cpt@optdepth=\count287
+\cpt@cnta=\count288
+\indrisdepth=\count289
+\cpt@foreachdepth=\count290
+\cpt@exprcnt=\count291
+)
+Package: xwatermark 2012/10/23 v1.5.2d A dynamic watermarking scheme (Ahmed Musa
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/fix-cm.sty"
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/picture/picture.sty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: etex.
+)
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
+)
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/ltxkeys/ltxkeys.sty
+Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
+\ltxkeys@csvdepth=\count292
+\ltxkeys@keydepth=\count293
+)
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip68
+\fb@frw=\dimen174
+\fb@frh=\dimen175
+\FrameRule=\dimen176
+\FrameSep=\dimen177
+)
+\AtBeginShipoutBox=\box57
+\xwm@boxa=\box58
+\xwm@boxb=\box59
+\xwm@cnta=\count294
+\xwm@wrt=\write3
+
+(./main.xwm)
+\openout3 = main.xwm
+) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6.
-
- ("C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -598,14 +653,14 @@ LaTeX Font Info:    ... okay on input line 6.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79135pt
-* \textheight=674.33032pt
+* \textheight=731.23584pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-23.91173pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -625,24 +680,23 @@ LaTeX Font Info:    ... okay on input line 6.
 
 ("C:/Program Files/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen173
-\scratchbox=\box57
-\nofMPsegments=\count286
-\nofMParguments=\count287
+\scratchcounter=\count295
+\scratchdimen=\dimen178
+\scratchbox=\box60
+\nofMPsegments=\count296
+\nofMParguments=\count297
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen174
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen179
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
 \everyMPtoPDFconversion=\toks27
 ) ("C:/Program Files/MiKTeX 2.9/tex/latex/epstopdf-pkg/epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 5.
 )
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 6.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -654,15 +708,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
  (./main.out) (./main.out)
-\@outlinefile=\write3
+\@outlinefile=\write4
 
-\openout3 = main.out
+\openout4 = main.out
 
 (C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/translator/translator-basi
 c-dictionary-English.dict
@@ -672,78 +726,124 @@ Dictionary: translator-basic-dictionary, Language: English
 ons.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
  ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./sections/tables/data.tex) [1
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 27.
 
-{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<sections/images/g1.pdf, id=38, 578.16pt x 459.7175pt>
+
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/psnfss/t1bch.fd
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+] (./main.toc)
+\tf@toc=\write5
+
+\openout5 = main.toc
+
+(./main.lof)
+\tf@lof=\write6
+
+\openout6 = main.lof
+ (./main.lot)
+\tf@lot=\write7
+
+\openout7 = main.lot
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 55
+.
+ ("C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2] [3]
+<sections/images/potato_diagram.pdf, id=93, 299.54309pt x 327.93315pt>
+File: sections/images/potato_diagram.pdf Graphic file (type pdf)
+<use sections/images/potato_diagram.pdf>
+Package luatex.def Info: sections/images/potato_diagram.pdf  used on input line 
+74.
+(luatex.def)             Requested size: 329.4984pt x 360.72757pt.
+<sections/images/g1.pdf, id=94, 578.16pt x 459.7175pt>
 File: sections/images/g1.pdf Graphic file (type pdf)
 <use sections/images/g1.pdf>
-Package luatex.def Info: sections/images/g1.pdf  used on input line 35.
-(luatex.def)             Requested size: 298.75264pt x 237.54631pt.
-<sections/images/g2.pdf, id=39, 469.755pt x 374.39874pt>
+Package luatex.def Info: sections/images/g1.pdf  used on input line 81.
+(luatex.def)             Requested size: 277.41176pt x 220.57771pt.
+<sections/images/g2.pdf, id=95, 469.755pt x 374.39874pt>
 File: sections/images/g2.pdf Graphic file (type pdf)
 <use sections/images/g2.pdf>
-Package luatex.def Info: sections/images/g2.pdf  used on input line 42.
-(luatex.def)             Requested size: 298.75264pt x 238.10619pt.
+Package luatex.def Info: sections/images/g2.pdf  used on input line 88.
+(luatex.def)             Requested size: 277.41176pt x 221.099pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sections/images/g3.pdf, id=40, 469.755pt x 374.39874pt>
+<sections/images/g3.pdf, id=96, 469.755pt x 374.39874pt>
 File: sections/images/g3.pdf Graphic file (type pdf)
 <use sections/images/g3.pdf>
-Package luatex.def Info: sections/images/g3.pdf  used on input line 49.
-(luatex.def)             Requested size: 298.75264pt x 238.10619pt.
+Package luatex.def Info: sections/images/g3.pdf  used on input line 95.
+(luatex.def)             Requested size: 277.41176pt x 221.099pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<sections/images/g4.pdf, id=41, 469.755pt x 274.02374pt>
+<sections/images/g4.pdf, id=97, 469.755pt x 274.02374pt>
 File: sections/images/g4.pdf Graphic file (type pdf)
 <use sections/images/g4.pdf>
-Package luatex.def Info: sections/images/g4.pdf  used on input line 56.
-(luatex.def)             Requested size: 298.75264pt x 174.27074pt.
+Package luatex.def Info: sections/images/g4.pdf  used on input line 102.
+(luatex.def)             Requested size: 277.41176pt x 161.82312pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
-[2<./sections/images/g1.pdf>] [3<./sections/images/g2.pdf><./sections/images/g3.
-pdf>] [4<./sections/images/g4.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+(./sections/tables/data.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./sections/tables/deviation.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+ [4<./sections/images/potato_diagram.pdf><./sections/images/g1.pdf>] [5<./sectio
+ns/images/g2.pdf><./sections/images/g3.pdf>] [6<./sections/images/g4.pdf>]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 111.
+
+(./main.xwm) (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7FB3B2B8E4D0636A5C514AD9E6526E3A;587.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+(rerunfilecheck)             Checksum: 0A3EFE792BFD8CD102A66C5E384B9D8B;661.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14931 strings out of 480883
- 100000,552014 words of node,token memory allocated
- 555 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 57 glue_spec
-, 8 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1113,3:94,4:17,5:135,6:15,7:2064,8:30,9:327,10:6,11:161
- 32032 multiletter control sequences out of 65536+200000
- 64 fonts using 5822907 bytes
- 44i,14n,50p,733b,1009s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb>
-Output written on main.pdf (4 pages, 469591 bytes).
+ 19003 strings out of 480883
+ 100000,662416 words of node,token memory allocated
+ 647 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 24 attribute, 60 gl
+ue_spec, 14 attribute_list, 1 write, 6 pdf_action nodes
+   avail lists: 1:1,2:1379,3:124,4:32,5:212,6:33,7:3811,8:34,9:465,10:7,11:407
+ 35978 multiletter control sequences out of 65536+200000
+ 70 fonts using 6313227 bytes
+ 70i,18n,71p,695b,1005s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
+eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
+nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmtt12.pfb>
+Output written on main.pdf (7 pages, 552803 bytes).
 
-PDF statistics: 148 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 131072)
- 41 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 223 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 131072)
+ 49 words of extra memory for PDF output out of 10000 (max. 100000000)
 
