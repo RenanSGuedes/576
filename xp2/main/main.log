@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  10 JUL 2020 19:11
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  12 JUL 2020 20:31
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -746,44 +746,50 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] (./tables/data.tex)
-<images/diagram.pdf, id=37, 336.17194pt x 482.19748pt>
+<images/diagram.pdf, id=45, 261.72078pt x 336.8846pt>
 File: images/diagram.pdf Graphic file (type pdf)
 <use images/diagram.pdf>
-Package luatex.def Info: images/diagram.pdf  used on input line 44.
-(luatex.def)             Requested size: 369.79025pt x 530.41885pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package luatex.def Info: images/diagram.pdf  used on input line 56.
+(luatex.def)             Requested size: 287.89374pt x 370.5742pt.
+<images/graph.pdf, id=46, 542.025pt x 344.28625pt>
+File: images/graph.pdf Graphic file (type pdf)
+<use images/graph.pdf>
+Package luatex.def Info: images/graph.pdf  used on input line 63.
+(luatex.def)             Requested size: 325.2175pt x 206.57333pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] [2<./images/diagram.pdf>]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 46.
+[1] [2<./images/diagram.pdf><./images/graph.pdf>]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 73.
  (./main.xwm) (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AA5D672EF83293E9E799301525FDBB92;666.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+(rerunfilecheck)             Checksum: F98A97E1FEF97343A71861D67EB997E4;770.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
 )
 
 Here is how much of LuaTeX's memory you used:
- 18933 strings out of 480883
+ 18961 strings out of 480883
  100000,662416 words of node,token memory allocated
- 570 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 12 attribute, 59 gl
-ue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 2:679,3:83,4:21,5:95,6:16,7:810,8:11,9:208,10:6,11:69
- 35988 multiletter control sequences out of 65536+200000
- 57 fonts using 5404763 bytes
- 69i,18n,70p,453b,1031s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 577 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 16 attribute, 59 glue_spec
+, 10 attribute_list, 1 write nodes
+   avail lists: 2:973,3:152,4:22,5:195,6:29,7:2721,8:56,9:306,10:11,11:270
+ 36006 multiletter control sequences out of 65536+200000
+ 68 fonts using 6149147 bytes
+ 69i,18n,70p,592b,1029s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (3 pages, 143892 bytes).
+fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmri12.pfb>
+Output written on main.pdf (3 pages, 247592 bytes).
 
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 131072)
- 49 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 127 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 131072)
+ 57 words of extra memory for PDF output out of 10000 (max. 100000000)
 
