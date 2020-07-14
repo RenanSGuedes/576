@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, 12pt, brazilian]{article}
 
 \usepackage{config}
 
@@ -29,45 +29,61 @@
 	
 	\section{Introdução}
 	
-	O ensaio a ser realizado consiste na compressão uniaxial com restrição de corpos de prova (CP) de batata inglesa, dando continuidade ao primeiro experimento. Dessa forma, a partir das repetições realizadas também é visada a determinação do coeficiente de Poisson ($\nu$) do material estudado.
+	O ensaio a ser realizado consiste na compressão uniaxial com restrição em corpos de prova (CP) de batata inglesa, dando continuidade ao primeiro experimento. Dessa forma, a partir das repetições e procedimentos realizados, é visada a determinação do coeficiente de Poisson do material estudado.
 	
 	\section{Objetivos}
 	
-	Determinação do coeficiente de Poisson ($\nu$)
+	Determinação do coeficiente de Poisson ($\nu$).
 	
 	\section{Materiais e Métodos}
 	
 	Para a realização do experimento foi feito uso das batatas, cortador cilíndrico para as mesmas, cilindro vazado para a inserção dos CPs, paquímetro digital, Máquina Universal de Ensaios e \textit{software} para aquisição de dados. 
 	
-	Dessa forma, após seguir os procedimentos iniciais apresentados na figura \ref{diagram} e realizar cinco repetições de compressão dos corpos de provas nas condições de restrição vistas no cilindro vazado, foi obtido o gráfico mostrado na Figura \ref{graph}.
+	Dessa forma, após seguir os procedimentos iniciais apresentados na  \cref{fig:diagram} e realizar cinco repetições de compressão dos corpos de provas nas condições de restrição vistas no cilindro vazado, foi obtido o gráfico mostrado na \cref{fig:graph}.
 	
-	Feito isso, foi após linearizar os trechos pertinentes de cada curva, foi encontrado o parâmetro (M) a ser substituído na equação \eqref{main_eq}. Em seguida, ao fazer a interpolação dos valores de módulo de elasticidade (E) para a velocidade de \SI{1}{\milli\meter/\second} aplicada nas 5 repetições chegou-se no valor de $\textrm{E}=\SI{3.64}{\giga\pascal}$. Sendo $\textrm{M}=\SI{5.14}{\giga\pascal}$ (coeficiente angular médio dos trechos linearizados para as cinco curvas da Figura \ref{graph}), chegou-se que o coeficiente de Poisson é de $0.32$.
+	Feito isso, após linearizar os trechos pertinentes de cada curva, foi encontrado o parâmetro (M) a ser substituído na equação \eqref{main_eq}. Em seguida, ao fazer a interpolação dos valores de módulo de elasticidade (E) para a velocidade de
+	\SI{1}{\milli\meter/\second}, baseando-se no gráfico do módulo de elasticidade em função da velocidade do primeiro ensaio (\cref{fig:interpol}), chegou-se no valor de E a ser substituído também em \eqref{main_eq}. Após obter M (coeficiente angular médio dos trechos linearizados para as cinco curvas da \cref{fig:graph}), foi possível encontrar o valor do coeficiente de Poisson para o material estudado.
 	
 	\section{Resultados e Discussão}
+	
+	Após seguir os procedimentos descritos anteriormente chegou-se que os valores do módulo de elasticidade (E) e (M) iguais a $\textrm{E}=\SI{3.64}{}$ e $\textrm{M}=\SI{5.14}{\giga\pascal}$, respectivamente. Consequentemente, o valor de coeficiente de Poisson atingido foi de $0.32$, contrariando os limites esperados onde $0.4<\nu<0.5$.
+	
 	\section{Conclusão}
+
+	A partir do ensaio e resultados alcançados, conclui-se que os corpos de prova se deformaram abaixo do esperado para o experimento. Dessa forma, sabendo que o coeficiente de Poisson quantifica o grau de deformação transversal e longitudinal, deduz-se que o coeficiente obtido é abaixo do esperado.
 	
 	\section{Anexos}
 	
+	\subsection{Tabelas}
+	
 	\import{tables/}{data}
 	
-	\begin{figure}
-		\label{diagram}
+	\subsection{Figuras}
+	
+	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1.1]{images/diagram}
-		\caption{Procedimentos adotados na elaboração de cada CP de batata inglesa. Após cortar a mesma no formato cilíndrico deve ser feita sua inserção no cilindro vazado seguido do cilindro que vai comprimir o CP por ação da Máquina Universal de Ensaios.}
+		\caption{Procedimentos adotados na elaboração de cada CP de batata inglesa. Após cortar a mesma no formato cilíndrico deve ser feita sua inserção no cilindro vazado seguido do cilindro que atuante sobre o CP por ação da Máquina Universal de Ensaios.}
+		\label{fig:diagram}
 	\end{figure}
 
-	\begin{figure}
-		\label{graph}
+	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=.6]{images/graph}
 		\caption{Gráfico tensão \textit{versus} deformação para os corpos de prova sob compressão à velocidade de \SI{1}{\milli\meter/\second}.}
+		\label{fig:graph}
 	\end{figure}
 	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.6]{images/interpol}
+		\caption{Interpolação visando obter o módulo de elasticidade para a velocidade $v=\SI{1}{\milli\meter/\second}$. Nesse caso, a ordenada correspondente é $\textrm{E}=\SI{3.64}{\giga\pascal}$.}
+		\label{fig:interpol}
+	\end{figure}
 	
 	\subsection{Equações}
 		
 	\begin{equation}\label{main_eq}
-		\textrm{M}=\dfrac{\textrm{E}}{(1-\nu)}\cdot\dfrac{(1-\nu)}{(1+\nu)}
+		\dfrac{\textrm{M}}{\textrm{E}}=\dfrac{1-\nu}{(1+\nu)(1-2\nu)}
 	\end{equation}
 \end{document}
