@@ -46,12 +46,13 @@
 	
 	\section{Resultados e Discussão}
 	
-	Após seguir os procedimentos descritos anteriormente chegou-se que os valores do módulo de elasticidade (E) e (M) iguais a $\textrm{E}=\SI{3.64}{}$ e $\textrm{M}=\SI{5.14}{\giga\pascal}$, respectivamente. Consequentemente, o valor de coeficiente de Poisson atingido foi de $0.32$, contrariando os limites esperados onde $0.4<\nu<0.5$.
+	Após seguir os procedimentos descritos anteriormente chegou-se que  $\textrm{E}=\SI{3.64}{\giga\pascal}$ e $\textrm{M}=\SI{5.14}{\giga\pascal}$. Consequentemente, o valor de coeficiente de Poisson atingido foi de $0.32$, contrariando os limites esperados onde $0.4<\nu<0.5$. 
+	
+	Tendo em vista que o coeficiente de Poisson quantifica o grau de deformação transversal e longitudinal como é visto na equação \eqref{strain}, deduz-se que o coeficiente obtido é inferior ao esperado, podendo este fato ser proveniente da deformação na direção longitudinal ($z$) ultrapassando o esperado, ou ocasionado pela nulidade das deformações transversais ($x$ e $y$) do CP pela utilização do cilindro vazado.
 	
 	\section{Conclusão}
 
-	A partir do ensaio e resultados alcançados, conclui-se que os corpos de prova se deformaram abaixo do esperado para o experimento. Dessa forma, sabendo que o coeficiente de Poisson quantifica o grau de deformação transversal e longitudinal, deduz-se que o coeficiente obtido é abaixo do esperado.
-	
+	Com base no ensaio e resultados alcançados, vê-se que ocorreu redução do valor esperado para o coeficiente de Poisson. Tal fato pode estar associado à restrição incorporada ao experimento, influenciando na deformação dos CPs sob compressão.
 	\section{Anexos}
 	
 	\subsection{Tabelas}
@@ -63,7 +64,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1.1]{images/diagram}
-		\caption{Procedimentos adotados na elaboração de cada CP de batata inglesa. Após cortar a mesma no formato cilíndrico deve ser feita sua inserção no cilindro vazado seguido do cilindro que atuante sobre o CP por ação da Máquina Universal de Ensaios.}
+		\caption{Procedimentos adotados na elaboração de cada CP de batata inglesa. Após cortar a mesma no formato cilíndrico deve ser feita sua inserção no cilindro vazado seguido do cilindro atuante sobre o CP por ação da Máquina Universal de Ensaios.}
 		\label{fig:diagram}
 	\end{figure}
 
@@ -86,4 +87,9 @@
 	\begin{equation}\label{main_eq}
 		\dfrac{\textrm{M}}{\textrm{E}}=\dfrac{1-\nu}{(1+\nu)(1-2\nu)}
 	\end{equation}
+	
+	\begin{equation}\label{strain}
+		\nu=-\dfrac{\epsilon_{x}}{\epsilon_{z}}=-\dfrac{\epsilon_{y}}{\epsilon_{z}}
+	\end{equation}
+	
 \end{document}

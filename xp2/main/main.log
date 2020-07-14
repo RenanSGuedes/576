@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  14 JUL 2020 16:55
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  14 JUL 2020 17:34
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -817,58 +817,65 @@ LaTeX Font Info:    Trying to load font information for T1+bch on input line 26.
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] (./tables/data.tex)
+]
+Overfull \hbox (4.47154pt too wide) in paragraph at lines 49--50
+[]\T1/lmr/m/n/12 Após se-guir os pro-ce-di-men-tos des-cri-tos an-te-ri-or-ment
+e chegou-se que $[] \OT1/cmr/m/n/12 = [] []$
+ []
+
+(./tables/data.tex)
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
-<images/diagram.pdf, id=66, 261.72078pt x 336.8846pt>
+<images/diagram.pdf, id=68, 261.72078pt x 336.8846pt>
 File: images/diagram.pdf Graphic file (type pdf)
 <use images/diagram.pdf>
-Package luatex.def Info: images/diagram.pdf  used on input line 65.
+Package luatex.def Info: images/diagram.pdf  used on input line 66.
 (luatex.def)             Requested size: 287.89374pt x 370.5742pt.
-<images/graph.pdf, id=67, 542.025pt x 315.1775pt>
+<images/graph.pdf, id=69, 542.025pt x 315.1775pt>
 File: images/graph.pdf Graphic file (type pdf)
 <use images/graph.pdf>
-Package luatex.def Info: images/graph.pdf  used on input line 72.
+Package luatex.def Info: images/graph.pdf  used on input line 73.
 (luatex.def)             Requested size: 325.2175pt x 189.10796pt.
  [2<./images/diagram.pdf>]
-<images/interpol.pdf, id=91, 542.025pt x 358.33875pt>
+<images/interpol.pdf, id=93, 542.025pt x 358.33875pt>
 File: images/interpol.pdf Graphic file (type pdf)
 <use images/interpol.pdf>
-Package luatex.def Info: images/interpol.pdf  used on input line 79.
+Package luatex.def Info: images/interpol.pdf  used on input line 80.
 (luatex.def)             Requested size: 325.2175pt x 215.0049pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
  [3<./images/interpol.pdf><./images/graph.pdf>]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 89.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 95.
 
 (./main.xwm) (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 88A13A7F4C15460866DB3435C3B3C300;956.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22042 strings out of 480883
+ 22045 strings out of 480883
  100000,794899 words of node,token memory allocated
- 597 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 16 attribute, 62 gl
-ue_spec, 10 attribute_list, 1 write nodes
-   avail lists: 2:821,3:119,4:28,5:204,6:29,7:3109,8:43,9:254,10:8,11:332
- 39020 multiletter control sequences out of 65536+200000
+ 609 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 20 attribute, 62 gl
+ue_spec, 12 attribute_list, 1 write nodes
+   avail lists: 2:848,3:123,4:28,5:225,6:31,7:3445,8:43,9:262,10:6,11:380
+ 39022 multiletter control sequences out of 65536+200000
  68 fonts using 6149147 bytes
- 67i,18n,68p,454b,1114s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,18n,68p,458b,1114s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (4 pages, 268013 bytes).
+fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmri12.pfb>
+Output written on main.pdf (4 pages, 278172 bytes).
 
-PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 131072)
+PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 131072)
  73 words of extra memory for PDF output out of 10000 (max. 100000000)
 
