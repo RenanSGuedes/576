@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, 12pt, brazilian]{article}
 \usepackage{config}
 
 \title{FA576 - Prova}
@@ -72,7 +72,34 @@
 			\item[\textbf{(b)}] A linearidade material está vinculada às características dependentes do tempo, oriundas das mudanças físicas no interior do corpo afetando a sua uniformidade e semelhanças estruturais em toda sua porção, podendo ocasionar variação das propriedades mecânicas.
 		\end{itemize}
 	
-		\item[\textbf{(10)}] As três equações apresentadas acima referem-se ao ensaio de compressão diametral de um corpo de prova cilíndrico. $E$ e $\nu$ representam o módulo de Young e coeficiente de Poisson, respectivamente. $Z$ é uma grandeza adimensional dada pela razão entre o raio do cilindro ($R$) e a metade da largura da área de contato. $F$ é a força máxima aplicada na deformação do corpo de prova, enquanto $D$ e $d$ são a deformação e o diâmetro do cilindro, respectivamente.
+		\item[\textbf{(9)}] As constante a serem obtidas dizem respeito aos módulos $E$, $\nu$ e $G$. A primeiro -- módulo de Young -- pode ser retirado da curva tensão ($\sigma$) \textit{versus} deformação ($\epsilon$) no trecho onde as duas grandezas de comportam de forma linear, onde a lei de Hooke é válida. Dessa forma, ao basear-se num determinado material devem ser feitos sucessivos ensaios visando analisar o comportamento da tensão em função da deformação. A figura \cref{fig:graph} ilustra o procedimento, onde após terem sido realizadas cinco repetições de compressão axial da batata inglesa, sob diferentes velocidades, foi ajustada uma reta que contempla a inclinação do trecho linear das cinco curvas permitindo, desta maneira, obter o módulo $E$ do material. Para $\nu$ -- coeficiente do Poisson -- ele é obtido da compressão axial sob restrição de corpos de prova, onde a partir das condições de contorno do experimento e fazendo uso da equação da elasticidade 
+		
+		\begin{equation}
+			\dfrac{M}{E}=\dfrac{1-\nu}{(1+\nu)(1-2\nu)}
+		\end{equation}
+		
+		sabendo que $M$ é o coeficiente angular do ensaio sob restrição e $E$ o módulo de elasticidade do mesmo material obtido na primeira parte, é possível calcular $\nu$. Por fim, tendo $E$ e $\nu$ em mãos é possíve calcular $G$ como função das duas primeiras.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=.6]{images/g3}
+			\label{fig:graph}
+		\end{figure} 	
+	
+		\item[\textbf{(10)}]
+		
+		\begin{equation}
+			E=\dfrac{8(1-\nu^{2})Z^{2}F}{\pi D}
+		\end{equation}
+		
+		\begin{equation}
+			Z=\dfrac{R}{b}
+		\end{equation}
+		
+		\begin{equation}
+			\dfrac{D}{d}=\dfrac{1}{2Z^{2}}\left[\ln (2Z)+\dfrac{1}{2}\right]
+		\end{equation}
+		As três equações apresentadas acima referem-se ao ensaio de compressão diametral de um corpo de prova cilíndrico. $E$ e $\nu$ representam o módulo de Young e coeficiente de Poisson, respectivamente. $Z$ é uma grandeza adimensional dada pela razão entre o raio do cilindro ($R$) e a metade da largura da área de contato. $F$ é a força máxima aplicada na deformação do corpo de prova, enquanto $D$ e $d$ são a deformação e o diâmetro do cilindro, respectivamente.
 		
 		\item[\textbf{(12)}] As perdas podem ser diminuídas a partir do estudo mais aprofundado envolvendo a interação das operações mecanizadas e os esforços suportados por cada material. Ou seja, deve-se haver mais especificidade e adequação entre o que o produto requer para que não sofra danos ou injúrias mecânicas e os elementos ao longo da cadeia de produção, englobando todas as variáveis pertinentes até a fase de comercializar a mercadoria.
 	\end{itemize} 
