@@ -2,13 +2,13 @@
 \usepackage{config}
 
 \title{FA576 - Prova}
-\author{Renan da Silva Guedes}
+\author{Renan da Silva Guedes \and RA: 223979}
 \date{\today}
 
 \begin{document}
 	\maketitle
 	\begin{itemize}
-		\item[\textbf{(1)}] As duas equações que relacionam a tensão e deformação radiais da lei de Hooke Generalizada são
+		\item[\textbf{(1)}] As duas equações que relacionam carga e deformação da lei de Hooke Generalizada são
 		
 		\begin{equation}
 			\sigma_{ij}=\dfrac{E}{1+\nu}\left(\epsilon_{ij}+\dfrac{\nu}{1-2\nu}\,\delta_{ij}\,\epsilon_{kk}\right)
@@ -65,6 +65,30 @@
 		\end{equation}
 		onde \textit{firmness} e $\nu$ são conhecidos.
 	
+		\item[\textbf{(7)}]	
+	
+		\begin{itemize}
+			\item Modelo de Maxwell	
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=1.1]{images/maxwell}
+			\end{figure}
+		
+			\begin{equation}
+				\dfrac{\dot{\sigma}_{11}(M)}{E}+\dfrac{\sigma_{11}(A)}{\eta}=\dot{\epsilon}_{11}
+			\end{equation}
+			
+			\item Modelo de Kelvin
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=1.1]{images/kelvin}
+			\end{figure}
+			
+			\begin{equation}
+				\sigma_{11}(t)(T)=E\,\epsilon_{11}(t)(M)+\eta\,\dot{\epsilon}_{11}(t)(A)
+			\end{equation}
+		\end{itemize}
+	
 		\item[\textbf{(8)}]		
 		
 		\begin{itemize}
@@ -100,6 +124,19 @@
 			\dfrac{D}{d}=\dfrac{1}{2Z^{2}}\left[\ln (2Z)+\dfrac{1}{2}\right]
 		\end{equation}
 		As três equações apresentadas acima referem-se ao ensaio de compressão diametral de um corpo de prova cilíndrico. $E$ e $\nu$ representam o módulo de Young e coeficiente de Poisson, respectivamente. $Z$ é uma grandeza adimensional dada pela razão entre o raio do cilindro ($R$) e a metade da largura da área de contato. $F$ é a força máxima aplicada na deformação do corpo de prova, enquanto $D$ e $d$ são a deformação e o diâmetro do cilindro, respectivamente.
+		
+		\item[\textbf{(11)}]
+		
+		\begin{equation}
+			\mathscr{L}\{f(t)\}=\int\limits_{0}^{\infty}f(t)e^{-st}dt
+		\end{equation}
+		
+		Sendo $\psi(t)$ a função \textit{creep} e $\phi(t)$ a função \textit{relaxation}
+		
+		\begin{equation}
+			\therefore\psi(s)\phi(s)=\dfrac{1}{s^{2}}
+		\end{equation} 
+		
 		
 		\item[\textbf{(12)}] As perdas podem ser diminuídas a partir do estudo mais aprofundado envolvendo a interação das operações mecanizadas e os esforços suportados por cada material. Ou seja, deve-se haver mais especificidade e adequação entre o que o produto requer para que não sofra danos ou injúrias mecânicas e os elementos ao longo da cadeia de produção, englobando todas as variáveis pertinentes até a fase de comercializar a mercadoria.
 	\end{itemize} 

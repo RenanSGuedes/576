@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  28 JUL 2020 18:05
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  28 JUL 2020 20:43
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -120,6 +120,10 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks16
 
 (C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/geometry/geometry.cfg))
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/jknappen/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks17
@@ -389,8 +393,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
@@ -797,6 +801,11 @@ LaTeX Info: Redefining \nameref on input line 8.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 8.
+
+(C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/jknappen/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
@@ -807,6 +816,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+luaotfload | cache : Lookup cache loaded from C:/Users/renan/AppData/Local/MiKTe
+X/2.9/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "Font rsfs7 n
+ot found.".
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
 <images/elast.pdf, id=3, 164.4815pt x 79.67366pt>
 File: images/elast.pdf Graphic file (type pdf)
 <use images/elast.pdf>
@@ -825,41 +840,52 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 <./images/elast.pdf><./images/inelast.pdf>]
+<images/maxwell.pdf, id=64, 191.0357pt x 73.56985pt>
+File: images/maxwell.pdf Graphic file (type pdf)
+<use images/maxwell.pdf>
+Package luatex.def Info: images/maxwell.pdf  used on input line 74.
+(luatex.def)             Requested size: 210.13991pt x 80.92706pt.
+<images/kelvin.pdf, id=65, 210.28061pt x 84.77672pt>
+File: images/kelvin.pdf Graphic file (type pdf)
+<use images/kelvin.pdf>
+Package luatex.def Info: images/kelvin.pdf  used on input line 84.
+(luatex.def)             Requested size: 231.30937pt x 93.25465pt.
+ [2<./images/maxwell.pdf><./images/kelvin.pdf>]
 
-LaTeX Warning: cref reference format for label type `' undefined on input line 7
-5.
+LaTeX Warning: cref reference format for label type `' undefined on input line 9
+9.
 
-<images/g3.pdf, id=64, 469.755pt x 374.39874pt>
+<images/g3.pdf, id=121, 469.755pt x 374.39874pt>
 File: images/g3.pdf Graphic file (type pdf)
 <use images/g3.pdf>
-Package luatex.def Info: images/g3.pdf  used on input line 85.
+Package luatex.def Info: images/g3.pdf  used on input line 109.
 (luatex.def)             Requested size: 281.85518pt x 224.64098pt.
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
- [3<./images/g3.pdf>]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 106.
+[3<./images/g3.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+ [4]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 143.
  (./main.xwm) (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22019 strings out of 480883
+ 22084 strings out of 480883
  100000,794899 words of node,token memory allocated
- 711 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 54 attribute, 62 gl
-ue_spec, 29 attribute_list, 1 write nodes
-   avail lists: 2:750,3:111,4:35,5:220,6:24,7:2970,8:44,9:262,10:11,11:319
- 39007 multiletter control sequences out of 65536+200000
- 84 fonts using 7141835 bytes
- 67i,14n,68p,1022b,829s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 759 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 70 attribute, 62 gl
+ue_spec, 37 attribute_list, 1 write nodes
+   avail lists: 2:741,3:111,4:35,5:215,6:24,7:2432,8:47,9:268,10:11,11:243
+ 39039 multiletter control sequences out of 65536+200000
+ 90 fonts using 7376147 bytes
+ 67i,14n,68p,1022b,893s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
@@ -872,10 +898,12 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (3 pages, 663900 bytes).
+/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (4 pages, 929448 bytes).
 
-PDF statistics: 146 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 131072)
+PDF statistics: 208 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
