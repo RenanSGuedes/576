@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  28 JUL 2020 14:56
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  28 JUL 2020 17:22
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -815,42 +815,43 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 <./images/elast.pdf><./images/inelast.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
  [2]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 61.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 79.
  (./main.xwm) (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21889 strings out of 480883
+ 21894 strings out of 480883
  100000,794899 words of node,token memory allocated
- 627 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 26 attribute, 62 gl
-ue_spec, 15 attribute_list, 1 write nodes
-   avail lists: 2:794,3:111,4:35,5:180,6:23,7:1981,8:44,9:260,10:10,11:239
- 38912 multiletter control sequences out of 65536+200000
+ 663 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 38 attribute, 62 gl
+ue_spec, 21 attribute_list, 1 write nodes
+   avail lists: 2:774,3:111,4:35,5:187,6:24,7:2622,8:44,9:261,10:11,11:303
+ 38914 multiletter control sequences out of 65536+200000
  84 fonts using 7141835 bytes
- 67i,13n,69p,525b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,14n,68p,525b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (2 pages, 555205 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
+Output written on main.pdf (2 pages, 567225 bytes).
 
-PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 131072)
+PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
