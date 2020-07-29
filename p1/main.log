@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  28 JUL 2020 21:57
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  28 JUL 2020 23:55
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -722,14 +722,14 @@ LaTeX Font Info:    ... okay on input line 8.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79135pt
-* \textheight=731.23584pt
+* \textheight=759.6886pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-52.36449pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -822,17 +822,17 @@ luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "Font rsfs7 n
 ot found.".
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-<images/elast.pdf, id=3, 164.4815pt x 79.67366pt>
+<images/elast.pdf, id=3, 159.66249pt x 80.96349pt>
 File: images/elast.pdf Graphic file (type pdf)
 <use images/elast.pdf>
 Package luatex.def Info: images/elast.pdf  used on input line 26.
-(luatex.def)             Requested size: 213.82591pt x 103.57571pt.
-<images/inelast.pdf, id=4, 140.62437pt x 90.57237pt>
+(luatex.def)             Requested size: 207.56119pt x 105.25249pt.
+<images/inelast.pdf, id=4, 165.30156pt x 107.84691pt>
 File: images/inelast.pdf Graphic file (type pdf)
 <use images/inelast.pdf>
 Package luatex.def Info: images/inelast.pdf  used on input line 27.
-(luatex.def)             Requested size: 182.81165pt x 117.74403pt.
-LaTeX Font Info:    Trying to load font information for T1+bch on input line 49.
+(luatex.def)             Requested size: 214.89198pt x 140.20094pt.
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 47.
 
 
 (C:/Users/renan/AppData/Roaming/MiKTeX/2.9/tex/latex/psnfss/t1bch.fd
@@ -840,58 +840,50 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) [1{C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 <./images/elast.pdf><./images/inelast.pdf>]
-<images/brazilian.pdf, id=63, 158.33353pt x 136.68565pt>
+<images/brazilian.pdf, id=61, 158.33353pt x 136.68565pt>
 File: images/brazilian.pdf Graphic file (type pdf)
 <use images/brazilian.pdf>
-Package luatex.def Info: images/brazilian.pdf  used on input line 73.
+Package luatex.def Info: images/brazilian.pdf  used on input line 75.
 (luatex.def)             Requested size: 174.1674pt x 150.35468pt.
-<images/maxwell.pdf, id=64, 191.0357pt x 73.56985pt>
+<images/maxwell.pdf, id=63, 191.0357pt x 73.56985pt>
 File: images/maxwell.pdf Graphic file (type pdf)
 <use images/maxwell.pdf>
-Package luatex.def Info: images/maxwell.pdf  used on input line 82.
+Package luatex.def Info: images/maxwell.pdf  used on input line 92.
 (luatex.def)             Requested size: 210.13991pt x 80.92706pt.
-<images/kelvin.pdf, id=65, 210.28061pt x 84.77672pt>
+ [2<./images/brazilian.pdf>]
+<images/kelvin.pdf, id=87, 210.28061pt x 84.77672pt>
 File: images/kelvin.pdf Graphic file (type pdf)
 <use images/kelvin.pdf>
-Package luatex.def Info: images/kelvin.pdf  used on input line 92.
+Package luatex.def Info: images/kelvin.pdf  used on input line 102.
 (luatex.def)             Requested size: 231.30937pt x 93.25465pt.
- [2<./images/brazilian.pdf><./images/maxwell.pdf>]
-
-LaTeX Warning: cref reference format for label type `' undefined on input line 1
-28.
-
-[3<./images/kelvin.pdf>]
-<images/g3.pdf, id=143, 469.755pt x 374.39874pt>
+ [3<./images/maxwell.pdf><./images/kelvin.pdf>]
+<images/g3.pdf, id=144, 469.755pt x 374.39874pt>
 File: images/g3.pdf Graphic file (type pdf)
 <use images/g3.pdf>
-Package luatex.def Info: images/g3.pdf  used on input line 138.
+Package luatex.def Info: images/g3.pdf  used on input line 148.
 (luatex.def)             Requested size: 281.85518pt x 224.64098pt.
  [4<./images/g3.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
  [5]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 183.
  (./main.xwm) (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22103 strings out of 480883
+ 22101 strings out of 480883
  100000,794899 words of node,token memory allocated
- 807 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 86 attribute, 62 gl
-ue_spec, 45 attribute_list, 1 write nodes
-   avail lists: 2:657,3:112,4:31,5:203,6:24,7:2698,8:44,9:286,10:11,11:291
- 39046 multiletter control sequences out of 65536+200000
+ 819 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 90 attribute, 62 gl
+ue_spec, 47 attribute_list, 1 write nodes
+   avail lists: 2:653,3:114,4:36,5:223,6:24,7:2826,8:53,9:305,10:14,11:294
+ 39043 multiletter control sequences out of 65536+200000
  90 fonts using 7376147 bytes
- 67i,14n,69p,1022b,895s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,14n,69p,1009b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
 eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
@@ -907,9 +899,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (5 pages, 1060044 bytes).
+Output written on main.pdf (5 pages, 705369 bytes).
 
-PDF statistics: 230 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 131072)
+PDF statistics: 231 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
