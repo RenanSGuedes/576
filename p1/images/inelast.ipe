@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70212" creator="Ipe 7.2.13">
-<info created="D:20200728134409" modified="D:20200728235153"/>
+<info created="D:20200728134409" modified="D:20200729112409"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -255,15 +255,15 @@ h
 <layer name="alpha"/>
 <layer name="beta"/>
 <view layers="alpha beta" active="beta"/>
-<path layer="beta" matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black">
+<path layer="beta" matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black">
 133.455 315.985 m
 133.455 473.253 l
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black">
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black">
 133.455 389.687 m
 376.006 389.687 l
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black" pen="0.2">
 133.455 389.687 m
 141.064 408.339
 145.996 418.489
@@ -281,7 +281,7 @@ h
 196.937 402.363
 202.249 389.687 c
 </path>
-<path matrix="0.670247 0 0 -0.670247 90.1165 678.43" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 -0.52584 99.4539 634.224" stroke="black" pen="0.2">
 133.455 389.687 m
 141.064 408.339
 145.996 418.489
@@ -299,7 +299,7 @@ h
 196.937 402.363
 202.249 389.687 c
 </path>
-<path matrix="0.670247 0 0 0.670247 136.225 156.057" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 0.52584 135.628 224.398" stroke="black" pen="0.2">
 133.455 389.687 m
 141.064 408.339
 145.996 418.489
@@ -317,7 +317,7 @@ h
 196.937 402.363
 202.249 389.687 c
 </path>
-<path matrix="0.670247 0 0 0.670247 54.8772 156.057" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 0.52584 71.807 224.398" stroke="black" pen="0.2">
 133.455 389.687 m
 141.064 408.339
 145.996 418.489
@@ -335,7 +335,7 @@ h
 196.937 402.363
 202.249 389.687 c
 </path>
-<path matrix="0.670247 0 0 0.670247 147.096 156.057" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 0.52584 144.157 224.398" stroke="black" pen="0.2">
 133.455 389.687 m
 141.064 408.339
 145.996 418.489
@@ -353,7 +353,7 @@ h
 196.937 402.363
 202.249 389.687 c
 </path>
-<path matrix="0.670247 0 0 -0.670247 100.986 678.43" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 -0.52584 107.982 634.224" stroke="black" pen="0.2">
 133.455 389.687 m
 141.064 408.339
 145.996 418.489
@@ -371,38 +371,38 @@ h
 196.937 402.363
 202.249 389.687 c
 </path>
-<text matrix="0.670247 0 0 0.670247 37.3178 155.187" transformations="translations" pos="208.377 435.164" stroke="black" type="label" width="31.046" height="4.297" depth="1.93" valign="baseline" style="math">\sigma_{11}, \epsilon_{11}</text>
-<text matrix="0.670247 0 0 0.670247 16.6833 158.073" transformations="translations" pos="413.963 378.192" stroke="black" type="label" width="3.598" height="6.128" depth="0" valign="baseline" style="math">t</text>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black" arrow="ptarc/small" rarrow="ptarc/small">
+<text matrix="0.52584 0 0 0.52584 57.8677 226.055" transformations="translations" pos="208.377 435.164" stroke="black" type="label" width="31.046" height="4.297" depth="1.93" valign="baseline" style="math">\sigma_{11}, \epsilon_{11}</text>
+<text matrix="0.52584 0 0 0.52584 39.3297 232.177" transformations="translations" pos="413.963 378.192" stroke="black" type="label" width="3.598" height="6.128" depth="0" valign="baseline" style="math">t</text>
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black">
 235.532 330.174 m
 252.984 330.174 l
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black" pen="0.2">
 339.837 389.687 m
 343.084 381.768
 345.832 374.211 c
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black" pen="0.2">
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black" pen="0.2">
 356.055 389.687 m
 358.199 384.079
 360.76 377.271 c
 </path>
-<text matrix="0.670247 0 0 0.670247 41.3423 155.874" transformations="translations" pos="343.119 368.184" stroke="black" type="label" width="14.133" height="4.294" depth="1.49" valign="baseline" style="math">\sigma_{11}</text>
-<text matrix="0.670247 0 0 0.670247 40.0915 154.806" transformations="translations" pos="362.999 373.053" stroke="black" type="label" width="12.484" height="4.294" depth="1.49" valign="baseline" style="math">\epsilon_{11}</text>
-<text matrix="0.670247 0 0 0.670247 42.1991 152.905" transformations="translations" pos="244.563 325.102" stroke="black" type="label" width="4.805" height="6.918" depth="0" valign="baseline" style="math">\delta</text>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black">
-235.532 330.174 m
-235.532 337.91 l
+<text matrix="0.52584 0 0 0.52584 56.1081 221.112" transformations="translations" pos="343.119 368.184" stroke="black" type="label" width="14.133" height="4.294" depth="1.49" valign="baseline" style="math">\sigma_{11}</text>
+<text matrix="0.52584 0 0 0.52584 62.1859 221.508" transformations="translations" pos="362.999 373.053" stroke="black" type="label" width="12.484" height="4.294" depth="1.49" valign="baseline" style="math">\epsilon_{11}</text>
+<text matrix="0.52584 0 0 0.52584 60.0108 216.207" transformations="translations" pos="244.563 325.102" stroke="black" type="label" width="4.805" height="6.918" depth="0" valign="baseline" style="math">\delta</text>
+<path stroke="black">
+187.131 398.017 m
+187.131 401.185 l
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black">
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black">
 252.984 330.174 m
 252.984 325.621 l
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black">
-252.984 330.174 m
-252.984 337.931 l
+<path stroke="black">
+196.308 398.017 m
+196.308 401.376 l
 </path>
-<path matrix="0.670247 0 0 0.670247 44.0072 156.057" stroke="black">
+<path matrix="0.52584 0 0 0.52584 63.279 224.398" stroke="black">
 235.532 330.174 m
 235.532 326.249 l
 </path>

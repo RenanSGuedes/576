@@ -23,7 +23,9 @@
 		\item[\textbf{(2)}] Esquemas
 		
 		\begin{figure}[H]
+			\centering
 			\includegraphics[scale=1.3]{images/elast}
+			\hspace{1cm}
 			\includegraphics[scale=1.3]{images/inelast}
 			\caption{Gráfico à direita ilustrando a resposta ao carregamento em um material viscoelástico, enquanto que à esquerda, elástico.}
 		\end{figure}
@@ -50,21 +52,20 @@
 				\epsilon_{kk}(t)=\int\limits_{0}^{t}\dfrac{d\sigma_{kk}(t')}{dt'}\,\psi_{H}(t-t')dt'
 			\end{equation}
 			
-			Análogo ao primeiro item, duas funções seriam obtidas como é visto em 
-			
-			\begin{equation}
-				S_{ij}(t)=\int\limits_{0}^{t}\dfrac{de_{ij}(t')}{dt'}\,\phi_{d}(t-t')dt'
-			\end{equation}
-			
-			\begin{equation}
-				\sigma_{kk}(t)=\int\limits_{0}^{t}\dfrac{d\epsilon_{kk}(t')}{dt'}\,\phi_{H}(t-t')dt'
-			\end{equation}
-			
 			\item[\textbf{(b)}] Na equação \eqref{eq:2} o termo $\sigma_{ij}$ é a função \textit{stress} total dependente do tempo. O termo $d\epsilon_{ij}(t')/dt'$ é a taxa de deformação (\textit{strain rate}), onde $\epsilon_{ij}$ é o tensor \textit{strain}. A função $\phi$ é \textit{relaxation}.
 			
 			\begin{equation}
 				\label{eq:2}
 				\sigma_{ij}(t)=\int\limits_{0}^{t}\dfrac{d\epsilon_{ij}(t')}{dt'}\,\phi(t-t')dt'
+			\end{equation}
+			Análogo ao primeiro item, duas funções seriam obtidas como é visto em 
+			
+			\begin{equation}
+			S_{ij}(t)=\int\limits_{0}^{t}\dfrac{de_{ij}(t')}{dt'}\,\phi_{d}(t-t')dt'
+			\end{equation}
+			
+			\begin{equation}
+			\sigma_{kk}(t)=\int\limits_{0}^{t}\dfrac{d\epsilon_{kk}(t')}{dt'}\,\phi_{H}(t-t')dt'
 			\end{equation}
 		\end{itemize}
 	
@@ -81,7 +82,7 @@
 		\label{lobo}
 		b=\sqrt{\dfrac{4\,F\,(1-\nu^{2})\,R}{\pi\,l\,E}}\Rightarrow \left(\dfrac{E}{1-\nu^{2}}\right)=\dfrac{4\,F\,R}{\pi\,l\,b^{2}}
 		\end{equation}
-		onde $b$ é a metade da largura da área de contato, $l$ é o comprimento do cilindro (ou da área de contato), $R$ é o raio do corpo cilíndrico e $F$ é a força aplicada (ortogonal ao plano de contato)	
+		onde $b$ é a metade da largura da área de contato, $l$ é o comprimento do cilindro (ou da área de contato), $R$ é o raio do corpo cilíndrico e $F$ é a força aplicada (ortogonal ao plano de contato).
 		
 		\item[\textbf{(6)}]	
 		
@@ -99,7 +100,7 @@
 			\item Modelo de Kelvin
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale=1.1]{images/kelvin}
+				\includegraphics[scale=1.2]{images/kelvin}
 			\end{figure}
 			
 			\begin{equation}
@@ -121,7 +122,7 @@
 			\label{eq:hertz}
 			\left(\dfrac{E}{1-\nu^{2}}\right)=\dfrac{3FR}{4a^{3}}
 		\end{equation}
-		dessa forma, por não possuirmos as características associadas à área de contato seria necessário aplicar somente o lado direito de \eqref{eq:hertz} visando obter o módulo $E$. Porém a consideração a ser feita seria
+		dessa forma, por não possuirmos as características associadas à área de contato seria necessário aplicar somente o lado esquerdo de \eqref{eq:hertz} visando obter o módulo $E$. Porém a consideração a ser feita seria
 		
 		\begin{equation}
 			\textit{firmness}=\dfrac{E}{1-\nu^{2}}
@@ -135,7 +136,7 @@
 			\item[\textbf{(b)}] A linearidade material está vinculada às características dependentes do tempo, oriundas das mudanças físicas no interior do corpo afetando a sua uniformidade e semelhanças estruturais em toda sua porção, podendo ocasionar variação das propriedades mecânicas.
 		\end{itemize}
 	
-		\item[\textbf{(9)}] As constante a serem obtidas dizem respeito aos módulos $E$, $\nu$ e $G$. A primeiro -- módulo de Young -- pode ser retirado da curva tensão ($\sigma$) \textit{versus} deformação ($\epsilon$) no trecho onde as duas grandezas de comportam de forma linear, onde a lei de Hooke é válida. Dessa forma, ao basear-se num determinado material devem ser feitos sucessivos ensaios visando analisar o comportamento da tensão em função da deformação. A figura (2) ilustra o procedimento, onde após terem sido realizadas cinco repetições de compressão axial da batata inglesa, sob diferentes velocidades, foi ajustada uma reta que contempla a inclinação do trecho linear das cinco curvas permitindo, desta maneira, obter o módulo $E$ do material. Para $\nu$ -- coeficiente do Poisson -- ele é obtido da compressão axial sob restrição de corpos de prova, onde a partir das condições de contorno do experimento e fazendo uso da equação da elasticidade 
+		\item[\textbf{(9)}] As constante a serem obtidas dizem respeito aos módulos $E$, $\nu$ e $G$. A primeira -- módulo de Young -- pode ser retirada da curva tensão ($\sigma$) \textit{versus} deformação ($\epsilon$) no trecho onde as duas grandezas se comportam de forma linear, onde a lei de Hooke é válida. Dessa forma, ao basear-se num determinado material devem ser feitos sucessivos ensaios visando analisar o comportamento da tensão em função da deformação. A figura (2) ilustra o procedimento, onde após terem sido realizadas cinco repetições de compressão axial da batata inglesa, sob diferentes velocidades, foi ajustada uma reta que contempla a inclinação do trecho linear das cinco curvas permitindo, desta maneira, obter o módulo $E$ do material. Para $\nu$ -- coeficiente do Poisson -- ele é obtido da compressão axial sob restrição de corpos de prova, onde a partir das condições de contorno do experimento e fazendo uso da equação da elasticidade 
 		
 		\begin{equation}
 			\dfrac{M}{E}=\dfrac{1-\nu}{(1+\nu)(1-2\nu)}
@@ -178,6 +179,6 @@
 		\end{equation} 
 		
 		
-		\item[\textbf{(12)}] As perdas podem ser diminuídas a partir do estudo mais aprofundado envolvendo a interação das operações mecanizadas e os esforços suportados por cada material. Ou seja, a partir do conhecimento das diferentes propriedades intrínsecas de cada produto, deve-se haver maior adequação entre o que os mesmos suportam para que não sofram danos ou injúrias mecânicas e apresentar elementos ao longo da cadeia de produção que englobem todas as variáveis pertinentes até a fase de se comercializar a mercadoria, considerando a variação das propriedades do produto com base em cada ambiente onde ele se encontra.
+		\item[\textbf{(12)}] As perdas podem ser diminuídas a partir do estudo mais aprofundado envolvendo a interação das operações mecanizadas e os esforços suportados por cada material. A partir do conhecimento das diferentes propriedades intrínsecas de cada produto, deve-se haver maior adequação entre o que os mesmos suportam para que não sofram danos ou injúrias mecânicas e apresentar elementos ao longo da cadeia de produção que englobem todas as variáveis pertinentes até a fase de se comercializar a mercadoria, considerando a variação das propriedades do produto com base em cada ambiente onde ele se encontra.
 	\end{itemize} 
 \end{document}
