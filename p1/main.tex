@@ -8,7 +8,7 @@
 \begin{document}
 	\maketitle
 	\begin{itemize}
-		\item[\textbf{(1)}] As duas equações que relacionam carga e deformação da lei de Hooke Generalizada são
+		\item[\textbf{(1)}] As duas equações que relacionam carga e deformação da lei de Hooke Generalizada são, respectivamente
 		
 		\begin{equation}
 			\sigma_{ij}=\dfrac{E}{1+\nu}\left(\epsilon_{ij}+\dfrac{\nu}{1-2\nu}\,\delta_{ij}\,\epsilon_{kk}\right)
@@ -18,12 +18,14 @@
 			\epsilon_{ij}=\dfrac{1+\nu}{E}\,\sigma_{ij}-\dfrac{\nu}{E}\,\delta_{ij}\,\sigma_{kk}
 		\end{equation}
 		
+		onde $\sigma_{ij}$
+		
 		\item[\textbf{(2)}] Esquemas
 		
 		\begin{figure}[H]
 			\includegraphics[scale=1.3]{images/elast}
 			\includegraphics[scale=1.3]{images/inelast}
-			\caption{Gráfico à direita ilustrando a resposta ao carregamento em um material elástico, enquanto que à esquerda, inelástico}
+			\caption{Gráfico à direita ilustrando a resposta ao carregamento em um material viscoelástico, enquanto que à esquerda, elástico.}
 		\end{figure}
 		
 		\item[\textbf{(4)}]
@@ -36,14 +38,65 @@
 				\epsilon_{ij}(t)=\int\limits_{0}^{t}\dfrac{d\sigma_{ij}(t')}{dt'}\,\psi(t-t')dt'
 			\end{equation}
 			
+			Ao subdividir os tensores em hidrostáticos e deviatóricos duas funções viscoelásticas seriam envolvidas como segue
 			
-			\item[\textbf{(b)}] Na equação \eqref{eq:2} o termo $\sigma_{ij}$ é a função \textit{stress} total dependente do tempo. O termo $d\epsilon_{ij}(t')/dt'$ é a taxa de deformação (\textit{strain rate}), onde $\epsilon_{ij}$ é o tensor \textit{strain}. A função $\phi$ é \textit{relation}.
+			\begin{equation}
+				e_{ij}(t)=\int\limits_{0}^{t}\dfrac{ds_{ij}(t')}{dt'}\,\psi_{d}(t-t')dt'
+			\end{equation}
+			
+			\begin{equation}
+				\epsilon_{kk}(t)=\int\limits_{0}^{t}\dfrac{d\sigma_{kk}(t')}{dt'}\,\psi_{H}(t-t')dt'
+			\end{equation}
+			
+			Análogo ao primeiro item, duas funções seriam obtidas como é visto em 
+			
+			\begin{equation}
+				S_{ij}(t)=\int\limits_{0}^{t}\dfrac{de_{ij}(t')}{dt'}\,\phi_{d}(t-t')dt'
+			\end{equation}
+			
+			\begin{equation}
+				\sigma_{kk})(t)=\int\limits_{0}^{t}\dfrac{d\epsilon_{kk}(t')}{dt'}\,\phi_{H}(t-t')dt'
+			\end{equation}
+			
+			\item[\textbf{(b)}] Na equação \eqref{eq:2} o termo $\sigma_{ij}$ é a função \textit{stress} total dependente do tempo. O termo $d\epsilon_{ij}(t')/dt'$ é a taxa de deformação (\textit{strain rate}), onde $\epsilon_{ij}$ é o tensor \textit{strain}. A função $\phi$ é \textit{relaxation}.
 			
 			\begin{equation}
 				\label{eq:2}
 				\sigma_{ij}(t)=\int\limits_{0}^{t}\dfrac{d\epsilon_{ij}(t')}{dt'}\,\phi(t-t')dt'
 			\end{equation}
 		\end{itemize}
+	
+		
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=1.1]{images/brazilian}
+		\end{figure}
+	
+		\item[\textbf{(6)}]	
+		
+		\begin{itemize}
+			\item Modelo de Maxwell	
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=1.1]{images/maxwell}
+			\end{figure}
+			
+			\begin{equation}
+			\dfrac{\dot{\sigma}_{11}(M)}{E}+\dfrac{\sigma_{11}(A)}{\eta}=\dot{\epsilon}_{11}
+			\end{equation}
+			
+			\item Modelo de Kelvin
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=1.1]{images/kelvin}
+			\end{figure}
+			
+			\begin{equation}
+			\sigma_{11}(t)(T)=E\,\epsilon_{11}(t)(M)+\eta\,\dot{\epsilon}_{11}(t)(A)
+			\end{equation}
+		\end{itemize}
+		
 		
 		\item[\textbf{(7)}] Para obtenção do módulo $E$ é necessário basear-se no ensaio de cargas de contato e determinação do módulo de firmeza do material. O módulo referido é o de elasticidade ou de Young. 
 		
@@ -64,30 +117,6 @@
 			\textit{firmness}=\dfrac{E}{1-\nu^{2}}
 		\end{equation}
 		onde \textit{firmness} e $\nu$ são conhecidos.
-	
-		\item[\textbf{(7)}]	
-	
-		\begin{itemize}
-			\item Modelo de Maxwell	
-			\begin{figure}[H]
-				\centering
-				\includegraphics[scale=1.1]{images/maxwell}
-			\end{figure}
-		
-			\begin{equation}
-				\dfrac{\dot{\sigma}_{11}(M)}{E}+\dfrac{\sigma_{11}(A)}{\eta}=\dot{\epsilon}_{11}
-			\end{equation}
-			
-			\item Modelo de Kelvin
-			\begin{figure}[H]
-				\centering
-				\includegraphics[scale=1.1]{images/kelvin}
-			\end{figure}
-			
-			\begin{equation}
-				\sigma_{11}(t)(T)=E\,\epsilon_{11}(t)(M)+\eta\,\dot{\epsilon}_{11}(t)(A)
-			\end{equation}
-		\end{itemize}
 	
 		\item[\textbf{(8)}]		
 		
